@@ -9,6 +9,9 @@ This small binary could calculate your FOP 5% taxes, taking incomes in currency 
 
 ## How to use
 
+1. At needed date ( you can signup in Taxer for notifications ) you go grab reports for quarter in your bank app.
+2. Using data from there, create/fill json/yaml like in [example](#file-examples)
+3. Run binary passing your file's path there
 ```sh
 ./go_pay_taxes ./incomes.json
 # OR
