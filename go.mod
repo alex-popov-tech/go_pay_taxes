@@ -1,4 +1,4 @@
-module github.com/go_pay_taxes
+module github.com/alex-popov-tech/go_pay_taxes
 
 go 1.19
 
