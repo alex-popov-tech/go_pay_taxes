@@ -34,7 +34,7 @@ func main() {
 	sum := decimal.Zero
 	for _, i := range incomes {
 		fmt.Printf("[%s] %s %s * ", i.Date, i.Amount.String(), i.Currency)
-		rate := getRate(i.Date, i.Currency)
+		rate := getRate(i.Date.Time, i.Currency)
 		total := rate.Mul(i.Amount)
 		totals = append(totals, total.String())
 		sum = sum.Add(total)
